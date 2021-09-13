@@ -1,0 +1,198 @@
+body {
+    user-select: none;
+    width: 100vw;
+    height: 100vh
+}
+
+img {
+    width: 100%
+}
+
+.button {
+    border-radius: 9px
+}
+
+.checkAvail {
+    font-size: 2.5vw
+}
+
+.book {
+    font-size: 3vw
+}
+
+.sticker-gallery {
+    padding: 0 10px;
+    width: 85vw;
+    height: auto;
+    aspect-ratio: 1188/792
+}
+
+div.scrollmenu {
+    padding: 15px 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap
+}
+
+div.scrollmenu img {
+    display: inline-block
+}
+
+#jacuzzi,
+#main,
+#parking,
+.mainSet {
+    aspect-ratio: 1188/792;
+    max-width: 100vw;
+    height: auto
+}
+
+#bar {
+    aspect-ratio: 1024/683;
+    max-width: 100vw;
+    height: auto
+}
+
+#logoImage {
+    max-width: 30vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    aspect-ratio: 192/44
+}
+
+.room,
+.roomImages {
+    padding: 10px;
+    aspect-ratio: 1024/768;
+    width: 100%;
+    height: auto
+}
+
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#heading {
+    position: absolute;
+    width: 50vw;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 7px 7px 10px #000
+}
+
+#mainHeading {
+    font-size: 7vw
+}
+
+#subHeading {
+    font-size: 3vw
+}
+
+#logo {
+    width: 100%;
+    height: auto
+}
+
+@media screen and (max-width:3000px) and (min-width:600px) {
+    #map {
+        height: 600px
+    }
+}
+
+@media (orientation:landscape) {
+    #mainHeading {
+        font-size: 4vw
+    }
+
+    #subHeading {
+        font-size: 2vw
+    }
+
+    #heading {
+        top: 50%;
+        left: 85%
+    }
+}
+
+.stretched {
+    width: 100%
+}
+
+.bannerContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.banner {
+    font-size: 4vw
+}
+
+i.fab,
+i.fas {
+    font-size: 5vw
+}
+
+@media (orientation:landscape) {
+    body {
+        display: block;
+        margin: auto
+    }
+
+    .banner {
+        font-size: 3vw
+    }
+
+    i.fab,
+    i.fas {
+        font-size: 4vw
+    }
+
+    #mainContent {
+        display: flex;
+        width: 100vw;
+        height: aut;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    #jacuzzi,
+    #main,
+    #parking,
+    .mainSet {
+        aspect-ratio: 1188/792;
+        max-height: 95vh;
+        width: auto
+    }
+
+    #bar {
+        aspect-ratio: 1024/683;
+        max-height: 95vh;
+        width: auto
+    }
+
+    .sticker-gallery {
+        max-height: 90vh;
+        width: auto
+    }
+
+    iframe {
+        max-height: 95vh;
+        width: auto
+    }
+}
